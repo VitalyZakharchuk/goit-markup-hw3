@@ -435,11 +435,10 @@ img {
 
 .footer-social {
   min-width: 208px;
+  margin-left: 120px;
 }
 .footer-content {
   display: flex;
-  align-items: baseline;
-  justify-content: space-between;
 }
 .footer-social-icons {
   margin-top: 16px;
@@ -474,6 +473,9 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
+}
+.footer-form {
+  margin-left: 80px;
 }
 .footer-form-wrraper {
   display: flex;
@@ -517,7 +519,7 @@ img {
 .footer-btn {
   display: flex;
   align-items: center;
-  justify-content: center;
+
   flex-direction: row;
   gap: 16px;
   border-radius: 4px;
@@ -595,16 +597,17 @@ img {
   top: 24px;
   right: 24px;
   border-radius: 50%;
+  color: #2e2f42;
   background-color: #e7e9fc;
   border: 1px solid rgba(0, 0, 0, 0.1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  color: white;
 }
 .modal-btn:hover,
 .modal-btn:focus {
-  fill: white;
+  color: white;
   background-color: #404bbf;
 }
+
 .modal-btn-icon {
   display: flex;
   text-align: center;
@@ -625,7 +628,7 @@ img {
   color: #8e8f99;
 }
 .feedback-input {
-  padding: 0 32px;
+  padding: 0 38px;
   width: 100%;
   height: 40px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -684,7 +687,7 @@ img {
   display: inline-flex;
   justify-content: center; /* Горизонтальне центрування */
   align-items: center; /* Вертикальне центрування */
-
+  margin-top: 16px;
   width: 16px;
   height: 16px;
   margin-right: 8px;

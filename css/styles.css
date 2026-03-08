@@ -435,10 +435,10 @@ img {
 
 .footer-social {
   min-width: 208px;
-  margin-left: 120px;
 }
 .footer-content {
   display: flex;
+  justify-content: space-between;
   align-items: baseline;
 }
 .footer-social-icons {
@@ -475,9 +475,7 @@ img {
   letter-spacing: 0.02em;
   color: #ffffff;
 }
-.footer-form {
-  margin-left: 80px;
-}
+
 .footer-form-wrraper {
   display: flex;
   margin-top: 16px;
@@ -509,6 +507,7 @@ img {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   padding: 8px 0 8px 16px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  color: #fff;
 }
 .footer-form-input:focus,
 .footer-form-input:hover {
@@ -623,7 +622,6 @@ img {
   text-align: center;
   justify-content: center;
   margin: 8px 8px;
-  fill: #2e2f42;
 }
 .feedback-wrapper:not(:last-child) {
   margin-bottom: 8px;

@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="webstudion" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudion</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -462,32 +462,32 @@
             </div>
           </div>
           <div class="footer-form">
-            <label class="footer-form-label" name="subscribeForm"
-              >Subscribe</label
-            >
-            <div class="footer-form-con">
-              <form class="footer-form-wrraper">
-                <input
-                  class="footer-form-input"
-                  type="email"
-                  name="email"
-                  placeholder="E-mail"
-                />
-              </form>
-              <div class="footer-btn-wrapper">
-                <button class="footer-btn">
-                  <span class="footer-btn-text"> Subscribe</span>
-                  <svg class="footer-sub-icon" width="24" height="24">
-                    <use href="./images/icons.svg#icon-subckribe"></use>
-                  </svg>
-                </button>
+            <label class="footer-form-label" for="userEmail"
+              >Subscribe
+              <div class="footer-form-con">
+                <form class="footer-form-wrraper">
+                  <input
+                    class="footer-form-input"
+                    type="email"
+                    name="email"
+                    placeholder="E-mail"
+                  />
+                  <div class="footer-btn-wrapper">
+                    <button class="footer-btn" type="submit">
+                      <span class="footer-btn-text"> Subscribe</span>
+                      <svg class="footer-sub-icon" width="24" height="24">
+                        <use href="./images/icons.svg#icon-subckribe"></use>
+                      </svg>
+                    </button>
+                  </div>
+                </form>
               </div>
-            </div>
+            </label>
           </div>
         </div>
       </div>
     </footer>
-    <div class="backdrop">
+    <div class="backdrop is-open">
       <div class="modal">
         <button class="modal-btn" type="button" aria-label="Close modal btn">
           <svg class="modal-btn-icon" width="8" height="8">
@@ -499,7 +499,7 @@
         </p>
         <form class="feedback-form" name="feedback">
           <div class="feedback-wrapper">
-            <label class="feedback-label">Name</label>
+            <label class="feedback-label" for="userName">Name</label>
             <div class="feedback-field">
               <input
                 class="feedback-input"
@@ -507,13 +507,13 @@
                 id="userName"
                 name="userName"
               />
-              <svg class="feedback-icon" width="12" height="12">
+              <svg class="feedback-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-name"></use>
               </svg>
             </div>
           </div>
           <div class="feedback-wrapper">
-            <label class="feedback-label">Phone</label>
+            <label class="feedback-label" for="userPhone">Phone</label>
             <div class="feedback-field">
               <input
                 class="feedback-input"
@@ -521,13 +521,13 @@
                 id="userPhone"
                 name="userPhone"
               />
-              <svg class="feedback-icon" width="12" height="12">
+              <svg class="feedback-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-phone"></use>
               </svg>
             </div>
           </div>
           <div class="feedback-wrapper">
-            <label class="feedback-label">Email</label>
+            <label class="feedback-label" for="userEmail">Email</label>
             <div class="feedback-field">
               <input
                 class="feedback-input"
@@ -535,30 +535,31 @@
                 id="userEmail"
                 name="userEmail"
               />
-              <svg class="feedback-icon" width="12" height="12">
+              <svg class="feedback-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-email"></use>
               </svg>
             </div>
           </div>
           <div class="feedback-wrapper">
-            <label class="feedback-label">Comment</label>
-            <textarea
-              class="feedback-comment"
-              name="userComment"
-              id="userComment"
-              rows="4"
-              placeholder="Text input"
-            >
-            </textarea>
+            <label class="feedback-label" for="userComment"
+              >Comment
+              <textarea
+                class="feedback-comment"
+                name="userComment"
+                id="userComment"
+                rows="4"
+                placeholder="Text input"
+              >
+              </textarea>
+            </label>
           </div>
-          <label class="feedback-agreement"
+          <label class="feedback-agreement" for="userAgreement"
             ><input
               class="feedback-checked visually-hidden"
               type="checkbox"
               name="userAgreement"
               id="userAgreement"
               value="true"
-              vis
             />
             <span class="feedback-toggler">
               <svg class="feedback-toggler-icon" width="10" height="10">
@@ -569,7 +570,7 @@
             <a class="feedback-link" href="#">Privacy Policy</a>
           </label>
 
-          <button class="btn-fotm-send">Send</button>
+          <button class="btn-fotm-send" type="submit">Send</button>
         </form>
       </div>
     </div>

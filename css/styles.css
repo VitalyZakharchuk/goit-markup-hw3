@@ -439,6 +439,7 @@ img {
 }
 .footer-content {
   display: flex;
+  align-items: baseline;
 }
 .footer-social-icons {
   margin-top: 16px;
@@ -625,7 +626,7 @@ img {
   stroke: currentColor;
 }
 .feedback-wrapper {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 .feedback-label {
   display: block;
@@ -692,11 +693,11 @@ img {
 }
 .feedback-toggler {
   border-radius: 2px;
-  border: 1px solid #2e2f42;
+  border: 1px solid rgba(46, 47, 66, 0.4);
   display: inline-flex;
   justify-content: center; /* Горизонтальне центрування */
   align-items: center; /* Вертикальне центрування */
-  margin-top: 16px;
+
   width: 16px;
   height: 16px;
   margin-right: 8px;

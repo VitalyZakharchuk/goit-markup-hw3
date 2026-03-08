@@ -435,7 +435,7 @@ img {
 
 .footer-social {
   margin-left: 120px;
-  margin-right: 80px;
+
   min-width: 208px;
 }
 .footer-content {
@@ -468,6 +468,9 @@ img {
 }
 .footer-icon-link:focus {
   background-color: #31d0aa;
+}
+.footer-form {
+  margin-left: auto;
 }
 .logo-soc-med {
   font-weight: 500;
@@ -509,6 +512,10 @@ img {
   padding: 8px 0 8px 16px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   color: #fff;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
 }
 .footer-form-input:focus,
 .footer-form-input:hover {

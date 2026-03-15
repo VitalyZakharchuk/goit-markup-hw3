@@ -292,8 +292,13 @@ img {
 .content-solution {
   display: block;
   margin: 0 auto;
-  max-width: 496px;
+  max-width: 216px;
   text-align: center;
+}
+@media only screen and (min-width: 768px) {
+  .content-solution {
+    max-width: 496px;
+  }
 }
 .ef-title {
   color: white;
@@ -450,17 +455,17 @@ img {
 }
 @media only screen and (min-width: 768px) {
   .team-des {
-    gap: 24px;
+    column-gap: 24px;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    row-gap: 82px;
+    row-gap: 64px;
   }
 }
 @media only screen and (min-width: 1158px) {
   .team-des {
     flex-wrap: nowrap;
-    gap: 32px;
+    gap: 24px;
     justify-content: center;
   }
 }
@@ -480,7 +485,6 @@ img {
   padding-bottom: 72px;
 }
 .team-list {
-  margin-right: 24px;
   display: block;
   border-radius: 0 0 4px 4px;
   background-color: #fff;
@@ -687,9 +691,9 @@ img {
   background-color: #2e2f42;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1158px) {
   .footer {
-    padding: 100px 0;
+    padding: 96px 0;
   }
 }
 .footer-content {
@@ -752,9 +756,6 @@ img {
   }
 }
 
-.footer-social-icons {
-  margin-top: 16px;
-}
 .footer-wrraper-icons {
   display: flex;
   gap: 16px;
@@ -817,12 +818,12 @@ img {
 @media only screen and (min-width: 768px) {
   .footer-form-wrraper {
     display: flex;
-    gap: 22px;
+    column-gap: 24px;
   }
 }
 .footer-form-title {
   text-align: center;
-  margin-bottom: 16px;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -858,7 +859,6 @@ img {
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
-  margin-bottom: 16px;
 }
 @media only screen and (min-width: 768px) {
   .footer-form-input {
@@ -949,12 +949,13 @@ img {
     0 1px 3px 0 rgba(0, 0, 0, 0.12),
     0 2px 1px 0 rgba(0, 0, 0, 0.2);
   background-color: #fcfcfc;
-  padding: 72px 24px 24px 24px;
+  padding: 72px 16px 24px 16px;
 }
 @media only screen and (min-width: 768px) {
   .modal {
     width: 408px;
     min-height: 584px;
+    padding: 72px 24px 24px 24px;
   }
 }
 .title-backdrop {
@@ -1123,7 +1124,7 @@ img {
   background-color: #fff;
   width: 100%;
   height: 100%;
-  padding: 72px 16px 40px;
+  padding: 72px 16px 40px 16px;
   transform: translateX(100%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }

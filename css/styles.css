@@ -701,14 +701,14 @@ img {
     flex-direction: row;
     flex-wrap: wrap;
     column-gap: 24px;
-
+    max-width: 584px;
     align-items: baseline;
   }
 }
 @media only screen and (min-width: 1158px) {
   .footer-content {
-    justify-content: space-between;
-    align-items: baseline;
+    max-width: 1158px;
+    justify-content: flex-start;
   }
 }
 .footer-des {
@@ -755,7 +755,11 @@ img {
     margin-top: 0;
   }
 }
-
+@media only screen and (min-width: 1158px) {
+  .footer-social {
+    margin-left: 120px;
+  }
+}
 .footer-wrraper-icons {
   display: flex;
   gap: 16px;

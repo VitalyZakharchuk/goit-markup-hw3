@@ -793,7 +793,11 @@ img {
     margin-left: 0;
   }
 }
-
+@media only screen and (min-width: 1158px) {
+  .footer-form {
+    margin-top: 0;
+  }
+}
 .logo-soc-med {
   text-align: center;
   margin-bottom: 16px;

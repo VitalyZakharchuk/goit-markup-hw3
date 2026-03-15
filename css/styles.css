@@ -743,7 +743,6 @@ img {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   margin-top: 16px;
-  width: px;
 }
 
 .footer-social {
@@ -783,7 +782,6 @@ img {
   background-color: #31d0aa;
 }
 .footer-form {
-  margin-left: auto;
   margin-top: 72px;
 }
 @media only screen and (min-width: 768px) {
